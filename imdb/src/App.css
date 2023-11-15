@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.card {
+  background-color: darkgoldenrod;
+  margin: 1rem;
+  padding:1rem;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-item img {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 500px;
+  height: 350px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.fuck{
+  padding: 2rem;
+  font-size: 25px;
+}
+lmao {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  padding :10px;
+  margin: 10px
+}
