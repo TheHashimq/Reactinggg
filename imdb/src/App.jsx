@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { movieList } from './data'
+import { movieList } from './components/data'
 
 function App() {
   const [index, setIndex] = useState(0);
